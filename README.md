@@ -8,17 +8,12 @@ simple taiko node
 
  ![image](https://user-images.githubusercontent.com/101149671/212496781-33a8eb3a-0ba2-497a-9f87-6185de6c1b2a.png) 
 
-  
-
- ## Ödül hakkında bilgi olmayan, can sıkıntısından oluşturulmuş bir repodur. 
-
-  
-
- ## Gereksinimler: 
+ 
+ ## Requirements: 
 
  ``` 
 
- 2 CPU 
+ 2 - 4 CPU 
 
  4GB RAM 
 
@@ -28,9 +23,9 @@ simple taiko node
 
   
 
- ## Kurulum: 
+ ## Setup: 
 
- * Komutları tek tek girin. 
+ * Enter commands one by one
 
   
 
@@ -60,7 +55,7 @@ simple taiko node
 
   
 
- ## Klonluyoruz repoyu 
+ ## Clone the repository
 
  ``` 
 
@@ -70,7 +65,7 @@ simple taiko node
 
  ``` 
 
- ## Ayrı screende çalıştıracağız: 
+ ## Run it on a separate screen: 
 
  ``` 
 
@@ -80,7 +75,7 @@ simple taiko node
 
   
 
- ## İçine girip düzenlemeler yapıyoruz: 
+ ## Go in and make adjustments.: 
 
  ``` 
 
@@ -90,17 +85,14 @@ simple taiko node
 
  ``` 
 
- ## Bu kısıma devam etmeden önce sıfırdan metamask oluşturup token al: [link](https://twitter.com/Ruesandora0/status/1607802177036091393?s=20&t=0OJOlVuEJIoSQRYLo2x5Sw) 
-
+ ## Before continuing with this part, create a metamask from scratch and get a token: [link](https://twitter.com/Ruesandora0/status/1607802177036091393?s=20&t=0OJOlVuEJIoSQRYLo2x5Sw)
   
 
- ## Yukarıdaki komutları girince açılacak ekran görselde ki gibi. 
+ ## The screen that will open when you enter the above commands is as in the image.
 
-  
+ * After opening, we come to the bottom with the arrow keys. 
 
- * Açıldıktan sonra yön tuşları ile en alta geliyoruz. 
-
- * `ENABLE_PROPOSER` kısmını `true` yapıyoruz 
+ * Make ENABLE_PROPOSER  'true '
 
  * `L1_PROPOSER_PRIVATE_KEY=` kısmına metamasktan private key alıyoruz (2. görsele bakın) 
 
