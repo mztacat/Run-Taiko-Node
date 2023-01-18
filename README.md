@@ -88,39 +88,33 @@ simple taiko node
  ## Before continuing with this part, create a metamask from scratch and get a token: [link](https://twitter.com/Ruesandora0/status/1607802177036091393?s=20&t=0OJOlVuEJIoSQRYLo2x5Sw)
   
 
- ## The screen that will open when you enter the above commands is as in the image.
+ ## The screen that will open when you enter the command
 
  * After opening, we come to the bottom with the arrow keys. 
 
  * Make ENABLE_PROPOSER  'true '
 
- * `L1_PROPOSER_PRIVATE_KEY=` kısmına metamasktan private key alıyoruz (2. görsele bakın) 
+ * `L1_PROPOSER_PRIVATE_KEY=` We get the private key from the metamask m
 
- * `L2_SUGGESTED_FEE_RECIPIENT=`bu kısımda `Metamask 0x Cüzdan Adresi` olacak 
+ *  in this section `Metamask 0x Wallet Address` will be `L2_SUGGESTED_FEE_RECIPIENT=`
 
- * sonra CTRL + X + Y ile çıkıyoruz. 
-
+ *  CTRL + X + Y
   
 
  ![image](https://user-images.githubusercontent.com/76253089/212540636-32564971-d531-41f2-b2a6-ffc5ef21582c.png) 
 
   
 
- * Metamasktan 3 noktaya tıklayınca hesap bilgileri kısmında olacak burası: 
+ * 
 
- ![image](https://user-images.githubusercontent.com/101149671/212497188-e5480587-9872-4c0f-abf0-4f6b24839396.png) 
-
-  
-
- ## Node'u çalıştırın: 
-
+ ## Run node:
  ``` 
 
  docker compose up 
 
  ``` 
 
- ## Node'unuz çalışıyor kolay gelsin: 
+ ## Your Node is running:
 
   
 
@@ -128,8 +122,7 @@ simple taiko node
 
   
 
- ## Taiko yatırımını açıklamamış projelerden birisidir. 
-
+ ## No incentive announcement yet
   
 
   
